@@ -1,4 +1,4 @@
--- The top 10 paying Data Analyst jobs list
+-- CTE : The top 10 paying Data Analyst jobs list
 WITH top_paying_jobs AS (
     SELECT
         job_id,
