@@ -1,4 +1,4 @@
---Top 10 highest paying data analyst roles that are remote
+--Top 10 highest paying data analyst roles
 SELECT
 	job_id,
 	job_title,
@@ -14,7 +14,6 @@ LEFT JOIN
 WHERE
 	job_title = 'Data Analyst'
 	AND salary_year_avg IS NOT NULL
-	AND job_location = 'Anywhere'
 ORDER BY
 	salary_year_avg DESC 
 LIMIT 10
