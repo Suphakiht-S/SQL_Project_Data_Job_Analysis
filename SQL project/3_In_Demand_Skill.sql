@@ -12,7 +12,8 @@ INNER JOIN
     skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 -- Filters job titles for 'Data Analyst' roles
 WHERE
-job_postings_fact.job_title_short = 'Data Analyst'
+    job_postings_fact.job_title_short = 'Data Analyst' AND
+    job_location = 'Anywhere'
 GROUP BY
     skills_dim.skills
 ORDER BY

@@ -9,11 +9,13 @@ SELECT
 	name AS company_name
 FROM
 	job_postings_fact
+-- Join skills_job table to get the skill name of the most paying job
 LEFT JOIN
     company_dim ON job_postings_fact.company_id = company_dim.company_id
 WHERE
-	job_title = 'Data Analyst'
-	AND salary_year_avg IS NOT NULL
+	job_title_short = 'Data Analyst' AND
+	job_location = 'Anywhere' AND
+	salary_year_avg IS NOT NULL
 ORDER BY
 	salary_year_avg DESC 
 LIMIT 10

@@ -4,3 +4,8 @@ Database_Load/csv_files/company_dim.csv
 Database_Load/csv_files/company_dim.csv
 Database_Load/csv_files/skills_dim.csv
 Database_Load/csv_files/skills_job_dim.csv
+Export material/1_Top_paying_job.xlsx
+Export material/2_The_demanded_skill.xlsx
+Export material/3_In_Demand_job.xlsx
+Export material/4_Skill_based_on_salary.xlsx
+Export material/5_Most_optimal_skill.xlsx
