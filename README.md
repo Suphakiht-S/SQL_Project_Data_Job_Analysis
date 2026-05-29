@@ -308,7 +308,7 @@ From the analysis, several general insights emerged :
 4. **Skills Associated with Higher Salaries**: Specialized technical skills such as SVN and Solidity are linked to some of the highest average salaries, demonstrating the market value of niche expertise.
 5. **Optimal Skills for Career Growth** : SQL stands out as one of the most valuable skills for data analysts due to its strong combination of high demand and competitive salary potential.
 
-## Final take away
+## Final takeaway
 1. SQL remains one of the most valuable skills in data analytics due to its strong combination of high demand and competitive salary potential.
 2. Cloud platforms such as Snowflake, AWS, and Azure provide strong career ROI, as they are associated with higher-paying analyst roles and growing industry demand.
 3. Data visualization tools like Tableau and Power BI, along with Python, have become essential skills for modern data analysts seeking to deliver actionable insights effectively.
